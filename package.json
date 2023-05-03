@@ -1,0 +1,31 @@
+{
+  "name": "HMS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon dist/app.js",
+    "dev": "ts-node-dev --respawn dist/app.js",
+    "compile": "tsc -p ./ -w",
+    "build": "tsc -p ./"
+  },
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.16.3"
+  }
+}
